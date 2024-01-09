@@ -1,0 +1,114 @@
+body{
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+}
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Oswald', sans-serif;
+}
+
+/*Header*/
+
+header{
+	position:fixed;
+	left: 0px;
+	top:0px;
+	width: 100%;
+	z-index: 10;
+	background-color: #000000;
+	padding:15px 15px;
+}
+header .container{
+	-webkit-display: flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	float: left;
+}
+
+header .logo a{
+	font-size: 30px;
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: 700;
+	float: left;
+	
+	
+}
+header .logo a span{
+	color:#c11325;
+    margin-left: 2px;
+} 
+
+header .logo img{
+	float: left;
+	margin-left: 0px;
+
+}
+
+nav ul li a {
+	font-size: 21px;
+	font-family:  cursive;
+	float: right;
+  }
+  nav ul li {
+	list-style-type: none;
+	display: inline-block;
+    margin-right: 0px;
+	padding: 10px 47px;
+  }
+ .header nav ul li a {
+	text-decoration: none;
+	text-transform: capitalize;
+  }
+.header  nav ul li a:hover {
+	color: rgb(206, 137, 17);
+	text-decoration: underline;
+  }
+
+
+
+
+
+
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+}
+
+/*Home section*/
+.home{
+	height: 100vh;
+	background-image: url('../images/home.jpg');
+	background-size: cover;
+	padding:15px;
+	-webkit-display: flex;
+	display: flex;
+	position: relative;
+}
+
+
+.home .container{
+  -webkit-display: flex;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.home h1{
+	color:#ffffff;
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-left: 80px;
+	margin-top: 100px;
+}
+
+.home h1 span{
+	color:#c11325; 
+}

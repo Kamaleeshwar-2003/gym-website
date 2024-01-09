@@ -1,0 +1,143 @@
+body{
+	margin:0;
+	padding:0;
+    background-color: black;
+} 
+
+header{
+    
+    width: 100%;
+    
+} 
+
+
+
+
+
+
+
+header .logo a{
+	font-size: 30px;
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: 700;
+	float: left;
+	
+	
+}
+header .logo a span{
+	color:#c11325;
+    margin-left: 2px;
+} 
+
+
+header .logo img{
+	float: left;
+	margin-left: 0px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+nav ul li a {
+	font-size: 21px;
+	font-family:  cursive;
+	float: right;
+  }
+  nav ul li {
+	list-style-type: none;
+	display: inline-block;
+  
+	padding: 10px 65px;
+  }
+ .header nav ul li a {
+	text-decoration: none;
+	text-transform: capitalize;
+  }
+.header  nav ul li a:hover {
+	color: rgb(206, 137, 17);
+	text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+.kk h1{
+    color: #ff0000;
+    margin-top: 50px;
+}
+
+.right h1,p,img{
+    color: #ff0000;
+    margin-left: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.right p{
+    font-size: 20px;
+}
+
+.left h1{
+    color: black;
+    margin-left: 50px;
+}  
+ .about .content{ 
+    -webkit-display: flex;
+    display: flex;
+    margin-left: 60px;
+   }
+   .about .content .box{
+       flex:0 0 33.33%;
+       max-width: 33.33%;
+       padding:15px;
+   }
+   .about .content .box .inner{
+       background-color:#222222;
+   }
+   .about .content .box:nth-child(2) .inner{
+       background-color: #c11325;
+   }
+   .about .content .box .inner .img img{
+       width: 75%;
+   }
+   .about .content .box .inner .text{
+       padding:20px;
+   }
+   
+   .about .content .box .inner .text h4{
+     font-size: 20px;
+     margin:0;
+     padding: 0px 0px 15px;
+     font-weight: 500;
+     color:#ffffff;
+    text-transform: capitalize;
+     text-align: center;
+   }
+   .about .content .box .inner .text p{
+       font-size: 15px;
+       line-height:20px;
+       color:#ffffff;
+       text-align: center;
+       margin:0;
+       font-family: 'Open Sans', sans-serif;
+   } 
+
+   .left ul{
+    color: blue;
+   }
+   
+
+
